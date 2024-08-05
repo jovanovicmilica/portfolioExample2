@@ -1,0 +1,43 @@
+// variables
+
+$mainColor : #a88f8e;
+$linkColor: #a88f8e;
+$secondaryColor : #eaf2ff;
+$borderRadius: 4px;
+$linksHoverColor: cornflowerblue; 
+
+// mixins
+@mixin mainFont {
+    font-family: 'Montserrat', sans-serif;
+}
+@mixin headingFont(){
+    // font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Parisienne', cursive;
+}
+@mixin dispayFlex(){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+@mixin spaceAround(){
+    @include dispayFlex();
+    justify-content: space-around;
+}
+@mixin spaceBetweeen(){
+    @include dispayFlex();
+    justify-content: space-between;
+}
+@mixin input(){
+    border-radius: $borderRadius;
+    width: 100%;
+    color: #000;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid $secondaryColor;
+    background-color: $secondaryColor;
+    @include mainFont();
+}
+@mixin border{
+    border: 2px solid $secondaryColor;
+}

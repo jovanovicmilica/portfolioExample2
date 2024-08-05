@@ -1,0 +1,112 @@
+@media screen and (max-width: 1200px) {
+  #projects .project {
+    width: 85%;
+    margin: 15px auto;
+    flex-direction: row-reverse;
+  }
+  #projects .project div {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+  }
+  header nav {
+    width: 100%;
+  }
+  #home {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  #skills {
+    justify-content: center;
+  }
+  #skills .skill {
+    width: 30%;
+    margin: 15px 10px;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  #contact .contactElement {
+    width: 80%;
+  }
+  #contact .contactElement.formDecoration {
+    min-height: 250px;
+  }
+  #contact .contactElement.formDecoration i {
+    font-size: 150px;
+    position: unset;
+  }
+  #contact .contactElement.formDecoration i:nth-child(1) {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    position: unset;
+    border-bottom: 1px solid #a88f8e;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  #home {
+    height: unset;
+  }
+  #home h1 {
+    font-size: 40px;
+  }
+  #projects {
+    width: 80%;
+    margin: 0px auto;
+  }
+  #projects .project {
+    width: 100%;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #projects .project div {
+    width: 100%;
+  }
+  #projects .project .projectText {
+    width: 100%;
+  }
+  #skills .skill i {
+    font-size: 30px;
+  }
+  #skills .skill p {
+    font-size: 20px;
+  }
+  #about #authorText {
+    width: 75%;
+  }
+  #about #authorPhoto {
+    width: 70%;
+  }
+  #education .education .image {
+    width: 80%;
+  }
+  #education .education .text {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #home {
+    padding: 50px 15px;
+  }
+  #home h1 {
+    font-size: 38px;
+  }
+  #skills {
+    justify-content: center;
+  }
+  #skills .skill {
+    margin: 15px 5px;
+    width: 45%;
+  }
+  footer .footer ul:nth-child(2) {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=queries.css.map */
